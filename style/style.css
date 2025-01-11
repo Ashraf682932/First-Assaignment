@@ -25,9 +25,10 @@ padding: 0;
     letter-spacing: 0%;
     color:  rgb(14, 14, 14);
     font-family: Fira Sans;
-    flex-direction: column;
-    justify-content: flex-start;
-align-items: flex-start;
+    display: flex;
+    vertical-align: middle;
+
+align-items:center;
 gap: 16;
 padding: 0px;
 
@@ -36,7 +37,7 @@ padding: 0px;
     background: rgb(198, 228, 214);
     width: 1280px;
 height: 560px;
-justify-content: center;
+justify-content:space-around;
 align-items: center;
 gap: 64;
 flex-direction: row;
@@ -44,7 +45,7 @@ margin: 80px 0px;
 order: 0;
 flex-grow: 0;
 border-radius: 24px;
-display: flex;
+display:flex;
 }
 .banner-profile-pic{
     width: 470px ;
@@ -53,5 +54,66 @@ display: flex;
 order: 1;
 flex-grow: 0;
 margin: 0px 64px;
+display: inline-block;
+vertical-align: middle;
     
+}
+.skill-container{
+    display: flex;
+    gap: 24px;
+    padding: 30px;
+    
+}
+.skill{
+    padding: 30px;
+    box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+
+background: rgb(255, 255, 255);
+}
+.section-title{
+    color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: left;
+}
+.Future-oppertunity{
+    gap: 24;
+    padding: 0px;
+display: flex;
+}
+.future{
+    gap: 24;
+padding: 32px;
+/* button */
+.btn-1{
+    border-radius: 8px;
+    background: rgb(84, 144, 245);
+    color: rgb(255, 255, 255);
+}
+.btn-2{
+    border-radius: 8px;
+    background: rgb(9, 161, 92);
+    color: rgb(255, 255, 255);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 600;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+}
+.btn-3{
+    border-radius: 8px;
+background: rgb(255, 194, 57);
+color: rgb(255, 255, 255);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 600;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
 }
