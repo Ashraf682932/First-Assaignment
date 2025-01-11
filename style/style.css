@@ -82,13 +82,43 @@ letter-spacing: 0%;
 text-align: left;
 }
 .Future-oppertunity{
-    gap: 24;
-    padding: 0px;
-display: flex;
+    display: flex;
+    gap: 24px;
 }
-.future{
+}
+.future-1{
     gap: 24;
 padding: 32px;
+box-sizing: border-box;
+border-radius: 16px;
+position: static;
+width: 410.67px;
+height: 325px;
+box-sizing: border-box;
+border-radius: 16px;
+
+background: rgba(84, 144, 245, 0.2);
+.future-2{
+    box-sizing: border-box;
+    border-radius: 16px; 
+    background: rgb(16, 197, 112);
+    position: static;
+    width: 410.67px;
+    height: 325px;flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 1;
+    margin: 0px 24px;
+    padding: 32px;
+    gap: 24px;
+}
+.future-3{
+    box-sizing: border-box;
+border-radius: 16px;
+
+background: rgb(247, 235, 207);
+}
+background: rgba(84, 144, 245, 0.2);
 /* button */
 .btn-1{
     border-radius: 8px;
@@ -116,4 +146,20 @@ font-weight: 600;
 line-height: 19px;
 letter-spacing: 0%;
 text-align: left;
+}
+.text{
+    box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+gap: 24;
+padding: 48px 24px 48px 24px;
+margin: 0px 24px;
+background: rgb(255, 255, 255);
+}
+.Frame-1{
+    border-radius: 24px;
+display: flex;gap: 32;
+padding: 48px;flex-direction: row;
+justify-content: flex-start;
+background: rgb(255, 255, 255);
 }
